@@ -23,18 +23,18 @@ function SideNav() {
       path: "/dashboard/create-new",
       icon: FileVideo,
     },
-    {
-      id: 1,
-      name: "Upgrade",
-      path: "/upgrade",
-      icon: ShieldPlus,
-    },
-    {
-      id: 1,
-      name: "Account",
-      path: "/account",
-      icon: CircleUserIcon,
-    },
+    // {
+    //   id: 1,
+    //   name: "Upgrade",
+    //   path: "/upgrade",
+    //   icon: ShieldPlus,
+    // },
+    // {
+    //   id: 1,
+    //   name: "Account",
+    //   path: "/account",
+    //   icon: CircleUserIcon,
+    // },
   ];
 
   const path = usePathname();
